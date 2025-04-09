@@ -8,6 +8,7 @@ import NotFound from "./pages/NotFound";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Layout from "./components/Layout";
+import Thanks from "./pages/Thanks";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "cart",
         element: <Cart />,
+      },
+      {
+        path: "thanks",
+        element: <Thanks />,
       },
       {
         path: "category/:categoryId",
